@@ -1,0 +1,87 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.gamebar{
+    background-color: rgb(37, 73, 75);
+    color: aliceblue;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem ;
+}
+.gamearea{
+    background-color: rgba(255, 255, 255, 0.884);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+.imgcontainer{
+    display: flex;
+    gap: 2.5rem;
+}
+.choices{
+
+    background-color: transparent;
+    border: none;
+  
+}
+.choices img{
+
+    border-radius: 50%;
+    height: 7rem;
+    width: 8rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.choices img:hover{
+
+   transform: scale(1.1);
+
+}
+.scoreboard{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin: 1.5rem;
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1.5rem;
+}
+.msgcontainer{
+    background-color:cadetblue;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    
+}
+.newbtn{
+
+    background-color: rgb(37, 73, 75);
+    font-size: 0.8rem;
+    margin: 2rem;
+    color: aliceblue;
+    padding: 0.5rem 0.5rem;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+
+
+}
