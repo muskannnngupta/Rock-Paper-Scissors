@@ -18,6 +18,7 @@ newbtn.addEventListener("click",() => {
     userscore.innerText = usercount;
     compscore.innerText = compcount;
     msgbox.innerText = "Play your move";
+    msgcontainer.style.backgroundColor = "cadetblue";
 })
 
 const choices = document.querySelectorAll(".choices");
@@ -92,3 +93,4 @@ const playgame = (userchoice) => {
     
 
 }
+
