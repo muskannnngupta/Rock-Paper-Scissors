@@ -17,6 +17,7 @@ newbtn.addEventListener("click",() => {
     compcount = 0;
     userscore.innerText = usercount;
     compscore.innerText = compcount;
+    msgbox.innerText = "Play your move";
 })
 
 const choices = document.querySelectorAll(".choices");
@@ -89,4 +90,5 @@ const playgame = (userchoice) => {
      showwinner(userwin , comptchoice , userchoice);
     }
     
+
 }
